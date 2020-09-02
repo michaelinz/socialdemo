@@ -1,7 +1,7 @@
 import React from 'react';
 import { UsergroupAddOutlined, WechatOutlined, StarOutlined, SettingFilled } from '@ant-design/icons';
-import portrait from "../../imgs/portrait.jpg"
-import "./back.css"
+// import portrait from "../../imgs/portrait.jpg"
+import "./back.css";
 
 function back() {
 
@@ -11,7 +11,7 @@ function back() {
         <div className="back-main">
             <div className="left-nav">
                 {/* this component shows the hidden info */}
-                <img className="photo" src={portrait} />
+                <img className="photo" src={"../imgs/portrait.jpg"} />
                 <ul className="list">
                     <li className="icon1"><UsergroupAddOutlined /></li>
                     <li className="icon2"><StarOutlined /></li>
