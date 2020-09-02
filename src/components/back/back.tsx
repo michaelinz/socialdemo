@@ -1,11 +1,10 @@
 import React from 'react';
 import { UsergroupAddOutlined, WechatOutlined, StarOutlined, SettingFilled } from '@ant-design/icons';
-// import portrait from "../../imgs/portrait.jpg"
+
 import "./back.css";
 
-function back() {
 
-
+function Back() {
     return (
 
         <div className="back-main">
@@ -21,9 +20,6 @@ function back() {
             </div>
         </div>
     );
-
 }
 
-
-
-export default back;
+export default Back;
